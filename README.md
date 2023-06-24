@@ -12,7 +12,7 @@
 To do list is a tool that helps you stay organized. It allows you to add tasks. When they are done, you can tick them off or delete. You can use it easily on computer or phone.
 
 ## Demo
-https://wiktorianizielska.github.io/toDoList/
+https://wiktorianizielska.github.io/todo-list-react/
 
 ## Technologies
 - HTML
