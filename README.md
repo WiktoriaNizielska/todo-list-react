@@ -5,25 +5,49 @@
 ## Table of contents:
 1. [Description](#description)
 1. [Demo](#demo)
+1. [Features](#features)
+1. [How to use](#how-to-use)
 1. [Technologies](#technologies)
 1. [Available Scripts](#available-scripts)
 
 ## Description
-To do list is a tool that helps you stay organized. It allows you to add tasks. When they are done, you can tick them off or delete. You can use it easily on computer or phone.
+To do list is a tool that helps you stay organized. It allows you to add tasks. When they are done, you can tick them off or delete. You can use it easily on computer or phone. It can be used as to do list or shopping list.
 
 ## Demo
 https://wiktorianizielska.github.io/todo-list-react/
 
-## Technologies
-- HTML
-- CSS
-- JavaScript
-- JSX
-- BEM
-- Grid
-- Flex
+## Features
+- intuitive to use
+- interactive buttons that appear depending on the state
+- responsive because of media queries
+- you can add any task you want
+- you can tick the task that you did
+- you can remove task form the list
+- you can hide done tasks
+- you can tick all task with one button 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to use
+1. Input a task that you want to add. 
+![input.gif](https://i.postimg.cc/3xDyWjS0/input.gif)
+1. Click adding button - "Dodaj zadanie".
+![button.gif](https://i.postimg.cc/ryHRcFMp/button.gif)
+1. You can toggle the task to be done by clicking green square.
+![taskdone.gif](https://i.postimg.cc/x8cfhYBN/taskdone.gif)
+1. You can delete done task by clicking red square with wastebasket icon.
+![remove.gif](https://i.postimg.cc/yY74D7Lm/remove.gif)
+1. When you add a task, two buttons will appear. You can toggle all tasks to be done (click "Ukończ wszystkie") or hide all done tasks (click "Ukryj ukończone").
+![alltasks.gif](https://i.postimg.cc/Kz6bqVhm/alltasks.gif)
+
+## Technologies
+- **React**: useState, controlled components, JSX
+- **Create React App**
+- **Webpack**
+- **Babel**
+- **HTML**
+- **BEMconvention**
+- **CSS**: Media Queries, normalize.css, transition, Flex, Grid
+- **JavaScript**: immutabililty, JS modules, arrays, objects
+
 
 ## Available scripts
 In the project directory, you can run:
