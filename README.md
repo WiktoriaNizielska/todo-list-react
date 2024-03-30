@@ -25,6 +25,7 @@ https://wiktorianizielska.github.io/todo-list-react/
 - you can remove task form the list
 - you can hide done tasks
 - you can tick all task with one button 
+- your tasks are automatically saved in local storage
 
 ## How to use
 1. Input a task that you want to add. 
@@ -39,14 +40,15 @@ https://wiktorianizielska.github.io/todo-list-react/
 ![alltasks.gif](https://i.postimg.cc/Kz6bqVhm/alltasks.gif)
 
 ## Technologies
-- **React**: useState, controlled components, JSX
+- **React**: controlled components, JSX
+- **React Hooks**: useState, useEffect
 - **Create React App**
 - **Webpack**
 - **Babel**
 - **HTML**
 - **BEMconvention**
 - **CSS**: Media Queries, normalize.css, transition, Flex, Grid
-- **JavaScript**: immutabililty, JS modules, arrays, objects
+- **JavaScript**: immutabililty, JS modules, arrays, objects, local storage
 
 
 ## Available scripts
