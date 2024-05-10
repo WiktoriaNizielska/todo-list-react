@@ -31,4 +31,10 @@ export const Button = styled.button`
     &:active{
         background-color: rgb(13, 192, 192);
     }
+
+    @media(max-width: 767px){
+        &:hover{
+            transform: scale(1.02);
+        }
+    }
 `;
