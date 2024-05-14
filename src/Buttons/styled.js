@@ -21,7 +21,7 @@ export const Button = styled.button`
     }
 
     &:hover{
-        filter:brightness(140%);
+        color:${({ theme }) => theme.color.java};
     }
 
     &:disabled{
