@@ -1,18 +1,18 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    @media(max-width:767px){
+    @media(max-width:${({ theme }) => theme.breakpoint.mobileMax}px){
         margin-bottom: 20px;
-}
+    }
 `;
 
 export const Button = styled.button`
     border: 0;
     background: none;
-    color: teal;
+    color: ${({ theme }) => theme.color.teal};
     transition: 0.4s;
 
-    @media(max-width:767px){
+    @media(max-width:${({ theme }) => theme.breakpoint.mobileMax}px){
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -21,10 +21,10 @@ export const Button = styled.button`
     }
 
     &:hover{
-        color: hsl(180, 100%, 40%);
+        filter:brightness(140%);
     }
 
     &:disabled{
-        color: #ccc;
+        color: ${({ theme }) => theme.color.grey};
     }
 `;

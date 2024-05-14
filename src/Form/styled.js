@@ -5,7 +5,7 @@ export const Wrapper = styled.form`
     grid-template-columns: 1fr auto;
     grid-gap: 20px;
 
-    @media(max-width: 767px){
+    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px){
         grid-template-columns: 1fr;
     }
 `;
@@ -17,22 +17,22 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-    background: teal;
-    color: white;
+    background: ${({ theme }) => theme.color.teal};
+    color:${({ theme }) => theme.color.white} ;
     border: none;
     padding: 10px;
     transition: 0.7s;
 
     &:hover{
-        background-color: rgb(6, 167, 167);
+        filter:brightness(130%);
         transform: scale(1.1);
     }
 
     &:active{
-        background-color: rgb(13, 192, 192);
+        filter:brightness(150%);
     }
 
-    @media(max-width: 767px){
+    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px){
         &:hover{
             transform: scale(1.02);
         }

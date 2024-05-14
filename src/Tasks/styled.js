@@ -26,25 +26,31 @@ export const Content = styled.span`
 
 export const Button = styled.button`
     border: none;
-    color: white;
+    color:${({ theme }) => theme.color.white};
     width: 30px;
     height: 30px;
     padding: 0;
     transition: 0.7s;
 
     ${({ toggleDone }) => toggleDone && css`
-        background-color: rgb(53, 127, 48);
+        background-color: ${({ theme }) => theme.color.green};
 
         &:hover{
-            background-color: rgb(69, 164, 62);
+            filter:brightness(130%);
+        }
+        &:active{
+            filter:brightness(160%);
         }
     `}
 
     ${({ remove }) => remove && css`
-        background-color: rgb(209, 50, 50);
+        background-color: ${({ theme }) => theme.color.red};
 
         &:hover{
-            background-color: rgb(228, 65, 65);
+            filter:brightness(120%);
+        }
+        &:active{
+            filter:brightness(170%);
         }
     `}
 `;

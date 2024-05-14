@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const Wrapper = styled.section`
-    background: rgb(252, 252, 252);
+    background: ${({ theme }) => theme.color.alabaster};
     margin: 10px 0;
     box-shadow: 13px 15px 27px -57px rgba(161, 161, 164, 1);
     max-width: 900px;
@@ -16,7 +16,7 @@ export const Container = styled.div`
     list-style: none;
     border-bottom: 1px solid rgb(209, 203, 203);
 
-    @media(max-width:767px) {
+    @media(max-width:${({ theme }) => theme.breakpoint.mobileMax}px) {
         display: flex;
         flex-direction: column;
         align-self: flex-start;
