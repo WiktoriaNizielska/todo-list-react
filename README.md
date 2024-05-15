@@ -41,12 +41,14 @@ https://wiktorianizielska.github.io/todo-list-react/
 
 ## Technologies
 - **React**: controlled components, JSX
-- **React Hooks**: useState, useEffect
+- **React Hooks**: useState, useEffect, useRef
+- **Custom Hooks**
+- **styled-components**
 - **Create React App**
+- **npm**
 - **Webpack**
 - **Babel**
 - **HTML**
-- **BEMconvention**
 - **CSS**: Media Queries, normalize.css, transition, Flex, Grid
 - **JavaScript**: immutabililty, JS modules, arrays, objects, local storage
 
