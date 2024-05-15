@@ -33,7 +33,7 @@ export const Header = styled.h2`
     margin: 0;
     padding: 20px;
 
-    ${({ alignment }) => alignment && css`
+    ${({ $alignment }) => $alignment && css`
         align-self: flex-start;
     `}
 `;

@@ -19,7 +19,7 @@ export const Item = styled.li`
 `;
 
 export const Content = styled.span`
-    ${({ done }) => done && css`
+    ${({ $done }) => $done && css`
         text-decoration: line-through;
     `}
 `;
@@ -32,7 +32,7 @@ export const Button = styled.button`
     padding: 0;
     transition: 0.7s;
 
-    ${({ toggleDone }) => toggleDone && css`
+    ${({ $toggleDone }) => $toggleDone && css`
         background-color: ${({ theme }) => theme.color.green};
 
         &:hover{
@@ -43,7 +43,7 @@ export const Button = styled.button`
         }
     `}
 
-    ${({ remove }) => remove && css`
+    ${({ $remove }) => $remove && css`
         background-color: ${({ theme }) => theme.color.red};
 
         &:hover{
