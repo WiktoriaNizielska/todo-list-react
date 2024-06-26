@@ -41,8 +41,8 @@ https://wiktorianizielska.github.io/todo-list-react/
 
 ## Technologies
 - **React**: controlled components, JSX
-- **React Hooks**: useState, useEffect, useRef
-- **Custom Hooks**
+- **React Hooks**: useState, useRef
+- **Redux**: React-Redux, Redux Toolkit  (createSlice, store, useSelector, useDispatch)
 - **styled-components**
 - **Create React App**
 - **npm**
@@ -50,7 +50,7 @@ https://wiktorianizielska.github.io/todo-list-react/
 - **Babel**
 - **HTML**
 - **CSS**: Media Queries, normalize.css, transition, Flex, Grid
-- **JavaScript**: immutabililty, JS modules, arrays, objects, local storage
+- **JavaScript**:JS modules, arrays, objects
 
 
 ## Available scripts
