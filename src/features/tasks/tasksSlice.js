@@ -3,7 +3,18 @@ import { createSlice } from '@reduxjs/toolkit';
 const tasksSlice = createSlice({
   name: 'tasks',
   initialState: {
-    tasks: [],
+    tasks: [
+      {
+        content: "poczytać książkę",
+        done: false,
+        id: 1,
+      },
+      {
+        content: "zrobić obiad",
+        done: false,
+        id: 2,
+      },
+    ],
     hideDone: false,
   },
   reducers: {
