@@ -3,18 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const tasksSlice = createSlice({
   name: 'tasks',
   initialState: {
-    tasks: [
-      {
-        content: "poczytać książkę",
-        done: false,
-        id: 1,
-      },
-      {
-        content: "zrobić obiad",
-        done: false,
-        id: 2,
-      },
-    ],
+    tasks: [],
     hideDone: false,
   },
   reducers: {
@@ -37,6 +26,10 @@ const tasksSlice = createSlice({
         task.done = true;
       });
     },
+    fetchExampleTasks: () => { },
+    setTasks: (state, { payload: tasks }) => {
+      state.tasks = tasks;
+    },
   },
 });
 
@@ -45,7 +38,10 @@ export const {
   toggleHideDone,
   toggleTaskDone,
   removeTask,
-  setAllDone } = tasksSlice.actions;
+  setAllDone,
+  fetchExampleTasks,
+  setTasks,
+} = tasksSlice.actions;
 
 export const selectTasksState = state => state.tasks;
 
