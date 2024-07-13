@@ -10,12 +10,6 @@ export const Wrapper = styled.form`
     }
 `;
 
-export const Input = styled.input`
-    padding: 10px;
-    border: solid rgb(209, 203, 203) 1px;
-    width: 100%;
-`;
-
 export const Button = styled.button`
     background: ${({ theme }) => theme.color.teal};
     color:${({ theme }) => theme.color.white} ;
