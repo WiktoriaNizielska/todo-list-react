@@ -1,6 +1,6 @@
 import Form from "./Form";
 import TasksList from "./TasksList";
-import Buttons from "./Buttons";
+import TasksButtons from "./Buttons/TasksButtons";
 import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import Container from "../../../common/Container";
@@ -21,7 +21,7 @@ function TasksPage() {
             <Section
                 title="Lista zadań"
                 body={<TasksList />}
-                extraHeaderContent={<Buttons />}
+                extraHeaderContent={<TasksButtons />}
             />
         </Container>
     );
