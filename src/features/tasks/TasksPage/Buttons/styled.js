@@ -1,3 +1,4 @@
+import { css } from "styled-components";
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
@@ -27,4 +28,13 @@ export const Button = styled.button`
     &:disabled{
         color: ${({ theme }) => theme.color.grey};
     }
+
+    ${({ loading }) => loading && css`
+          color: ${({ theme }) => theme.color.darkGrey};
+          
+          &:hover{
+            color:${({ theme }) => theme.color.darkGrey};
+            }
+        `}
 `;
+
