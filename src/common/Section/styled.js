@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const Wrapper = styled.section`
     background: ${({ theme }) => theme.color.alabaster};
     margin: 10px 0;
-    box-shadow: 13px 15px 27px -57px rgba(161, 161, 164, 1);
+    box-shadow: 0 0 5px ${({ theme }) => theme.color.alto};
     max-width: 900px;
 `;
 
@@ -14,7 +14,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: flex-start;
     list-style: none;
-    border-bottom: 1px solid rgb(209, 203, 203);
+    border-bottom: 1px solid ${({ theme }) => theme.color.alto};
 
     @media(max-width:${({ theme }) => theme.breakpoint.mobileMax}px) {
         display: flex;

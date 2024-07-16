@@ -11,7 +11,7 @@ export const Item = styled.li`
     grid-gap: 10px;
     padding: 10px;
     align-items: center;
-    border-bottom: 1px solid rgb(209, 203, 203);
+    border-bottom: 1px solid ${({ theme }) => theme.color.alto};
 
     ${({ hidden }) => hidden && css`
         display:none;
