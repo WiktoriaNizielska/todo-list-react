@@ -8,7 +8,6 @@ export const theme = {
     grey: "#ccc",
     gallery: "#eaeaea",
     java: "#0FB3B3",
-    darkGrey: "#a1a1a4",
     alto:"#DBDBDB",
   },
   breakpoint: {

@@ -28,13 +28,5 @@ export const Button = styled.button`
     &:disabled{
         color: ${({ theme }) => theme.color.grey};
     }
-
-    ${({ loading }) => loading && css`
-          color: ${({ theme }) => theme.color.darkGrey};
-          
-          &:hover{
-            color:${({ theme }) => theme.color.darkGrey};
-            }
-        `}
 `;
 
