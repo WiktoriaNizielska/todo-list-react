@@ -25,7 +25,7 @@ export const Container = styled.div`
 `;
 
 export const Body = styled.div`
-    padding: 10px;
+    padding: 20px;
     word-break: break-word;
 `;
 
