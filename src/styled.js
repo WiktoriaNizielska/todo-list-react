@@ -6,7 +6,6 @@ export const StyledNavLink = styled(NavLink)`
     color: ${({ theme }) => theme.color.white};
     padding: 20px;
     display: block;
-    align-content: center;
   
     &.active{
         font-weight: bold;
@@ -24,4 +23,5 @@ export const StyledNavigation = styled.ul`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom:15px;    
 `;
