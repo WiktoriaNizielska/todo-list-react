@@ -1,6 +1,6 @@
 # To do list
 
-![Todolist.gif](https://i.postimg.cc/mZnBF7g8/Todolist.gif)
+![Todolist screen](./images/screen.gif)
 
 ## Table of contents:
 1. [Description](#description)
@@ -11,46 +11,65 @@
 1. [Available Scripts](#available-scripts)
 
 ## Description
-To do list is a tool that helps you stay organized. It allows you to add tasks. When they are done, you can tick them off or delete. You can use it easily on computer or phone. It can be used as to do list or shopping list.
+To do list is a tool that helps you stay organized. It allows you to add and manage your tasks. You can easily search for specific tasks. When they are done, you can tick them off or delete. App can be used as to do list or shopping list. You can use it on your computer or phone - so it will always be by your side.
 
 ## Demo
 https://wiktorianizielska.github.io/todo-list-react/
 
 ## Features
 - intuitive to use
-- interactive buttons that appear depending on the state
-- responsive because of media queries
+- interactive buttons that appear depending on the actual state
+- responsive design due to media queries
+- two main pages - tasks and author - created using React Router
+- indiviual subpage for every task
+- simple navigation (selected link is bold)
 - you can add any task you want
 - you can tick the task that you did
 - you can remove task form the list
 - you can hide done tasks
 - you can tick all task with one button 
 - your tasks are automatically saved in local storage
+- you can download example tasks
+- you can filter tasks in search bar
+
 
 ## How to use
 1. Input a task that you want to add. 
-![input.gif](https://i.postimg.cc/3xDyWjS0/input.gif)
+![Input](./images/input.gif)
 1. Click adding button - "Dodaj zadanie".
-![button.gif](https://i.postimg.cc/ryHRcFMp/button.gif)
+![Button](./images/addbutton.gif)
 1. You can toggle the task to be done by clicking green square.
-![taskdone.gif](https://i.postimg.cc/x8cfhYBN/taskdone.gif)
+![Task done](./images/taskdone.gif)
 1. You can delete done task by clicking red square with wastebasket icon.
-![remove.gif](https://i.postimg.cc/yY74D7Lm/remove.gif)
+![Remove task](./images/removetask.gif)
 1. When you add a task, two buttons will appear. You can toggle all tasks to be done (click "Ukończ wszystkie") or hide all done tasks (click "Ukryj ukończone").
-![alltasks.gif](https://i.postimg.cc/Kz6bqVhm/alltasks.gif)
+![Tasks hide and done](./images/alltasks.gif)
+1. Click on task content to check indiviual subpage for every task.
+![Task subpage](./images/tasksubpage.gif)
+1. Type task content in search input to filter your tasks and search the exact one you want.
+![Search bar](./images/searchbar.gif)
+1. You can download example tasks using button - "Pobierz przyładowe zadania".
+![Example tasks](./images/exampletasks.gif)
+
 
 ## Technologies
 - **React**: controlled components, JSX
-- **React Hooks**: useState, useRef
+- **React Hooks**: useState, useRef, custom hooks
 - **Redux**: React-Redux, Redux Toolkit  (createSlice, store, useSelector, useDispatch)
-- **styled-components**
+- **Redux-Saga**: side effects handling, saving tasks in localStorage
+- **React Router**: useParams, useLocation, useHistory
+- **Styled-components**
 - **Create React App**
 - **npm**
 - **Webpack**
 - **Babel**
 - **HTML**
-- **CSS**: Media Queries, normalize.css, transition, Flex, Grid
-- **JavaScript**:JS modules, arrays, objects
+- **CSS**: Media Queries, normalize.css, transition, Flex, Grid, alternative box model
+- **JavaScript**: JS modules, arrays, objects, ternary operator, arrow functions, immutabililty
+- **JS Async**: asynchronous functions, async/await
+- **Fetch**
+- error handling: **try/catch**
+
 
 
 ## Available scripts
