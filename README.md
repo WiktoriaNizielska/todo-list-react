@@ -37,7 +37,8 @@ https://wiktorianizielska.github.io/todo-list-react/
 1. Input a task that you want to add. 
 ![Input](./images/input.gif)
 1. Click adding button - "Dodaj zadanie".
-![Button](./images/addbutton.gif)
+
+    ![Button](./images/addbutton.gif)
 1. You can toggle the task to be done by clicking green square.
 ![Task done](./images/taskdone.gif)
 1. You can delete done task by clicking red square with wastebasket icon.
