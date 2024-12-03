@@ -1,6 +1,13 @@
+import { ReactNode } from "react";
 import { Wrapper, Container, Body, Header } from "./styled";
 
-const Section = ({ title, body, extraHeaderContent }) => (
+interface SectionProps {
+    title: ReactNode;
+    body: ReactNode;
+    extraHeaderContent?: ReactNode;
+}
+
+const Section = ({ title, body, extraHeaderContent }: SectionProps) => (
     <Wrapper>
         <Container>
             <Header $alignment>{title}</Header>

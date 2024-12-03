@@ -2,9 +2,9 @@ import Form from "./Form";
 import TasksList from "./TasksList";
 import TasksButtons from "./Buttons/TasksButtons";
 import ExampleTasksButton from "./Buttons/ExampleTasksButton";
-import Section from "../../../common/Section";
-import Header from "../../../common/Header";
-import Container from "../../../common/Container";
+import Section from "../../../common/Section/index.tsx";
+import Header from "../../../common/Header/index.tsx";
+import Container from "../../../common/Container/index.ts";
 import Search from "./Search";
 
 function TasksPage() {
