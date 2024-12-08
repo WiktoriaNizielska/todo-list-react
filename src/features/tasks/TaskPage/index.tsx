@@ -1,12 +1,17 @@
-import Section from "../../../common/Section/index.tsx";
-import Header from "../../../common/Header/index.tsx";
-import Container from "../../../common/Container/index.ts";
+
 import { useParams } from 'react-router-dom';
 import { useSelector } from "react-redux";
 import { getTaskById } from "../tasksSlice";
+import Container from '../../../common/Container';
+import Header from '../../../common/Header';
+import Section from '../../../common/Section';
 
 function TaskPage() {
-  const { id } = useParams();
+interface IdType {
+  id: string;
+}
+
+  const { id } = useParams<IdType>();
   const task = useSelector(state => getTaskById(state, id));
 
   return (

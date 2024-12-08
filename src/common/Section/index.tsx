@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Wrapper, Container, Body, Header } from "./styled";
+import { Body, Container, Header, Wrapper } from "./styled";
 
 interface SectionProps {
     title: ReactNode;

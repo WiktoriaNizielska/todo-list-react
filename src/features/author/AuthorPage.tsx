@@ -1,6 +1,7 @@
-import Container from "../../common/Container/index.ts";
-import Header from "../../common/Header/index.tsx";
-import Section from "../../common/Section/index.tsx";
+
+import Container from "../../common/Container";
+import Header from "../../common/Header";
+import Section from "../../common/Section";
 import { Wrapper } from "./styled";
 
 export default () => (

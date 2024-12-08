@@ -8,9 +8,9 @@ export const theme = {
     grey: "#ccc",
     gallery: "#eaeaea",
     java: "#0FB3B3",
-    alto:"#DBDBDB",
+    alto: "#DBDBDB",
   },
   breakpoint: {
     mobileMax: 767,
   },
-};
+} as const;
