@@ -12,7 +12,9 @@ import { Task } from "../../types";
 
 const TasksList = () => {
   const query = useQueryParameter(searchQueryParamName);
-  const tasks: Task[] = useSelector((state) => selectTasksByQuery(state, query));
+  const tasks: Task[] = useSelector((state) =>
+    selectTasksByQuery(state, query)
+  );
   const hideDone = useSelector(selectHideDone);
 
   const dispatch = useDispatch();

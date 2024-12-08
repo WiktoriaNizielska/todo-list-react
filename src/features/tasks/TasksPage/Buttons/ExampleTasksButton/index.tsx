@@ -7,13 +7,10 @@ const ExampleTasksButton = () => {
   const loading = useSelector(selectLoading);
 
   return (
-    <Button
-      onClick={() => dispatch(fetchExampleTasks())}
-      disabled={loading}
-    >
+    <Button onClick={() => dispatch(fetchExampleTasks())} disabled={loading}>
       {loading ? "Ładowanie..." : "Pobierz przyładowe zadania"}
     </Button>
-  )
+  );
 };
 
 export default ExampleTasksButton;
