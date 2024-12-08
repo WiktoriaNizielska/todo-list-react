@@ -54,6 +54,7 @@ https://wiktorianizielska.github.io/todo-list-react/
 
 
 ## Technologies
+- **TypeScript**
 - **React**: controlled components, JSX
 - **React Hooks**: useState, useRef, custom hooks
 - **Redux**: React-Redux, Redux Toolkit  (createSlice, store, useSelector, useDispatch)
