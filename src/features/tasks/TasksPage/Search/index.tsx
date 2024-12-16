@@ -1,4 +1,4 @@
-import { ChangeEventHandler, FormEventHandler } from "react";
+import { ChangeEventHandler } from "react";
 import Input from "../../Input";
 import searchQueryParamName from "../searchQueryParamName";
 import { useQueryParameter } from "./useQueryParameter";
