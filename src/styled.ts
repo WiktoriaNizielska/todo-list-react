@@ -24,4 +24,5 @@ export const StyledNavigation = styled.ul`
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 15px;
+  padding: 0;
 `;
